@@ -11,9 +11,6 @@ const char* mqtt_server = "mqtt.broker.com";
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-long lastMsg = 0;
-char msg[50];
-int value = 0;
 char macAddr[18];
 char mqttClient[25];
 
